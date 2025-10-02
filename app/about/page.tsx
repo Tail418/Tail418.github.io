@@ -13,7 +13,7 @@ export default function AboutPage() {
       <section className="pt-24 pb-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">소개</h1>
-          <p className="text-xl text-muted-foreground mb-12">하나님의 사랑 안에서 함께 성장하는 공동체</p>
+          <p className="text-xl text-muted-foreground mb-12">2025년 함께 의정부 지역 복음화를 위해 힘쓰는 대학선교부</p>
         </div>
       </section>
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/pastor-ahn-jungho.jpg"
+                    src="/my-photo/안정호.png"
                     alt="안정호 전도사님"
                     width={160}
                     height={160}
@@ -38,8 +38,7 @@ export default function AboutPage() {
                   </Badge>
                   <h2 className="text-3xl font-bold text-foreground mb-4">안정호 전도사님</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    하나님의 말씀으로 청년들을 섬기며, 각자가 하나님 안에서 자신의 소명을 발견하고 성장할 수 있도록 돕고
-                    있습니다.
+                    하나님의 말씀을 전해주시는 분
                   </p>
                 </div>
               </div>
@@ -70,15 +69,15 @@ export default function AboutPage() {
       {/* Mission & Vision */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">우리의 사명</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">방향성</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="bg-card border-border text-center">
               <CardContent className="p-8">
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-4">사랑의 공동체</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-4">전도</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  하나님의 사랑을 바탕으로 서로를 아끼고 돌보는 따뜻한 공동체를 만들어갑니다.
+                  많은 잃어진 영혼들을 주님 앞으로 인도하는 그리스도인
                 </p>
               </CardContent>
             </Card>
@@ -86,9 +85,9 @@ export default function AboutPage() {
             <Card className="bg-card border-border text-center">
               <CardContent className="p-8">
                 <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-4">함께 성장</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-4">교제</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  혼자가 아닌 함께 걸어가며, 서로의 신앙과 삶에서 성장할 수 있도록 돕습니다.
+                  모이기를 힘쓰라는 말씀을 따라 형제자매님들 모여서 교제하기 힘씁니다.
                 </p>
               </CardContent>
             </Card>
@@ -98,7 +97,7 @@ export default function AboutPage() {
                 <Pray className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-foreground mb-4">말씀 중심</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  하나님의 말씀을 중심으로 한 예배와 교제를 통해 영적으로 성숙해갑니다.
+                  하나님의 말씀을 중심으로, 하나님 말씀을 앞세워서, 하나님 말씀을 기준으로 살아가려 합니다.
                 </p>
               </CardContent>
             </Card>
@@ -109,19 +108,19 @@ export default function AboutPage() {
       {/* History Section */}
       <section className="py-16 px-4 bg-secondary/30">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">우리의 이야기</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">붙잡고 싶은 말씀</h2>
 
           <div className="space-y-8">
             <Card className="bg-card border-border">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-foreground font-bold">2025</span>
+                    <span className="text-primary-foreground font-bold">초심</span>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">새로운 시작</h3>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">피투성이라도 살라</h3>
                     <p className="text-muted-foreground">
-                      의정부 대학선교부가 새롭게 출발하며, 더 많은 대학생들과 함께 하나님의 사랑을 나누고자 합니다.
+                      (겔 16:6) 내가 네 곁으로 지나갈 때에 네가 피투성이가 되어 발짓하는 것을 보고 네게 이르기를 너는 피투성이라도 살라 다시 이르기를 너는 피투성이라도 살라 하고
                     </p>
                   </div>
                 </div>
@@ -135,9 +134,9 @@ export default function AboutPage() {
                     <Heart className="h-6 w-6 text-accent-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">공동체의 가치</h3>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">여호와는 나의 전부이시니</h3>
                     <p className="text-muted-foreground">
-                      '혼자가 아닌 함께'라는 가치 아래, 서로를 붙들어 일으키는 진정한 형제자매의 관계를 추구합니다.
+                      (시 119:57) 여호와는 나의 분깃이시니 나는 주의 말씀을 지키리라 하였나이다 
                     </p>
                   </div>
                 </div>
@@ -150,17 +149,17 @@ export default function AboutPage() {
       {/* Contact Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-8">함께해요</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">수련회</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            의정부 대학선교부에서 함께 신앙의 여정을 걸어가실 분들을 기다립니다
+            수련회를 통해 마음의 결단과 다시 일어서는 힘을 얻고 하나님을 향한 마음을 새롭게 합니다.
           </p>
           <Card className="bg-card border-border">
             <CardContent className="p-8">
-              <h3 className="text-xl font-semibold text-foreground mb-4">모임 안내</h3>
+              <h3 className="text-xl font-semibold text-foreground mb-4">일정</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>매주 일요일 오후 2시 - 주일예배</p>
-                <p>매주 수요일 오후 7시 - 수요예배</p>
-                <p>매월 셋째 토요일 - 특별모임</p>
+                <p>동계수련회 : 25/12/31 ~ 25/01/02</p>
+                <p>전국 대학생 여름수련회 : 25/06/29 ~ 25/07/02</p>
+                <p>의정부권역 대학생 수련회 : 25/08/29 ~ 25/08/30</p>
               </div>
             </CardContent>
           </Card>

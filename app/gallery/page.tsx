@@ -12,32 +12,34 @@ export default function GalleryPage() {
 
   // Generate 18 gallery images with Korean university ministry themes
   const galleryImages = [
-    { id: 1, src: "/korean-university-students-worship-service.jpg", alt: "주일예배", category: "예배" },
-    { id: 2, src: "/placeholder-geh0d.png", alt: "성경공부", category: "말씀" },
-    { id: 3, src: "/korean-university-ministry-retreat-mountains.jpg", alt: "수양회", category: "수양회" },
-    { id: 4, src: "/korean-students-fellowship-meal-together.jpg", alt: "교제식사", category: "교제" },
-    { id: 5, src: "/placeholder-f0g0c.png", alt: "기도모임", category: "기도" },
-    { id: 6, src: "/korean-university-students-singing-worship.jpg", alt: "찬양시간", category: "찬양" },
-    { id: 7, src: "/placeholder-a1u0h.png", alt: "야외활동", category: "활동" },
-    { id: 8, src: "/placeholder-8ypmw.png", alt: "크리스마스", category: "행사" },
-    { id: 9, src: "/korean-university-ministry-baptism-ceremony.jpg", alt: "세례식", category: "세례" },
-    { id: 10, src: "/korean-students-volunteer-service-community.jpg", alt: "봉사활동", category: "봉사" },
-    { id: 11, src: "/placeholder-oqy92.png", alt: "졸업식", category: "졸업" },
-    { id: 12, src: "/korean-university-students-easter-celebration.jpg", alt: "부활절", category: "행사" },
-    { id: 13, src: "/placeholder-gngmm.png", alt: "여름캠프", category: "캠프" },
-    { id: 14, src: "/placeholder-jqwe9.png", alt: "선교여행", category: "선교" },
-    { id: 15, src: "/korean-students-thanksgiving-service-church.jpg", alt: "추수감사절", category: "행사" },
-    { id: 16, src: "/placeholder.svg?height=300&width=300", alt: "신년예배", category: "예배" },
-    { id: 17, src: "/placeholder.svg?height=300&width=300", alt: "커피타임", category: "교제" },
-    { id: 18, src: "/placeholder.svg?height=300&width=300", alt: "단체사진", category: "기념" },
+  
+  { id: 1, src: "/1.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 2, src: "/2.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 3, src: "/3.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 4, src: "/4.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 5, src: "/5.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 6, src: "/6.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 7, src: "/7.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 8, src: "/8.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 9, src: "/9.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 10, src: "/10.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 11, src: "/11.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 12, src: "/12.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 13, src: "/13.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 14, src: "/14.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 15, src: "/15.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 16, src: "/16.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 17, src: "/17.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 18, src: "/18.jpeg", alt: "행복한 시간들", category: "교제" },
+
   ]
 
   const newsItems = [
-    "2025년 신입생 환영회가 3월 첫째 주에 열립니다",
-    "겨울 성경학교 참가자 모집 중입니다",
-    "새해 첫 수양회가 2월 둘째 주 예정입니다",
-    "졸업생 송별회가 2월 마지막 주에 있습니다",
-    "선교 헌금 모금이 목표액의 80%에 도달했습니다",
+    "노방전도로 구원 받는 사람들!",
+    "가을 찬양제가 11월 첫째주에 열립니다",
+    "내년에 신입생 많다고요?!",
+    "새로오신 전도사님이 좋아하시는 찬양 <소풍>",
+    "전도인 분들을 위해 항상 기도합시다",
   ]
 
   const [currentNewsIndex, setCurrentNewsIndex] = useState(0)
@@ -122,38 +124,38 @@ export default function GalleryPage() {
       {/* Statistics */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">우리의 활동</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">힘써야 하는 것들</h2>
 
           <div className="grid md:grid-cols-4 gap-8">
             <Card className="bg-card border-border text-center">
               <CardContent className="p-6">
                 <Heart className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">50+</div>
-                <p className="text-muted-foreground">참여 학생 수</p>
+                <div className="text-3xl font-bold text-foreground mb-2">기도</div>
+                <p className="text-muted-foreground">사랑의 기도</p>
               </CardContent>
             </Card>
 
             <Card className="bg-card border-border text-center">
               <CardContent className="p-6">
                 <Calendar className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">24</div>
-                <p className="text-muted-foreground">연간 행사 수</p>
+                <div className="text-3xl font-bold text-foreground mb-2">전도</div>
+                <p className="text-muted-foreground">계획을 세워 전도</p>
               </CardContent>
             </Card>
 
             <Card className="bg-card border-border text-center">
               <CardContent className="p-6">
                 <Users className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">12</div>
-                <p className="text-muted-foreground">소그룹 수</p>
+                <div className="text-3xl font-bold text-foreground mb-2">교제</div>
+                <p className="text-muted-foreground">모이기를 힘쓰라</p>
               </CardContent>
             </Card>
 
             <Card className="bg-card border-border text-center">
               <CardContent className="p-6">
                 <BookOpen className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">100+</div>
-                <p className="text-muted-foreground">말씀 나눔 횟수</p>
+                <div className="text-3xl font-bold text-foreground mb-2">말씀</div>
+                <p className="text-muted-foreground">말씀을 최우선</p>
               </CardContent>
             </Card>
           </div>

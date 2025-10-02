@@ -9,7 +9,7 @@ export default function ServantsPage() {
     {
       name: "양진영b",
       role: "대학부장",
-      description: "대학부 전체를 이끌며 모든 사역을 총괄합니다",
+      description: "(시 18:1) 나의 힘이 되신 여호와여 내가 주를 사랑하나이다",
       icon: Crown,
       color: "text-yellow-400",
       image: "/servant-yang-jinyoung.jpg",
@@ -17,7 +17,7 @@ export default function ServantsPage() {
     {
       name: "박중혁b",
       role: "형제총무",
-      description: "형제들의 교제와 활동을 담당합니다",
+      description: "(시 26:8) 여호와여 내가 주의 계신 집과 주의 영광이 거하는 곳을 사랑하오니",
       icon: Users,
       color: "text-blue-400",
       image: "/servant-park-junghyuk.jpg",
@@ -25,7 +25,7 @@ export default function ServantsPage() {
     {
       name: "김경일b",
       role: "형제차장",
-      description: "형제총무를 보조하며 형제 사역을 돕습니다",
+      description: "(시 33:5) 저는 정의와 공의를 사랑하심이여 세상에 여호와의 인자하심이 충만하도다",
       icon: User,
       color: "text-blue-300",
       image: "/servant-kim-kyungil.jpg",
@@ -33,7 +33,7 @@ export default function ServantsPage() {
     {
       name: "유하나s",
       role: "자매부장",
-      description: "자매들의 교제와 활동을 이끌어갑니다",
+      description: "(시 60:5) 주의 사랑하시는 자를 건지시기 위하여 우리에게 응답하사 오른손으로 구원하소서",
       icon: Heart,
       color: "text-pink-400",
       image: "/servant-yu-hana.jpg",
@@ -41,7 +41,7 @@ export default function ServantsPage() {
     {
       name: "배지연s",
       role: "회계",
-      description: "대학부의 재정 관리를 담당합니다",
+      description: "(시 84:1) 만군의 여호와여 주의 장막이 어찌 그리 사랑스러운지요",
       icon: Calculator,
       color: "text-green-400",
       image: "/servant-bae-jiyeon.jpg",
@@ -49,7 +49,7 @@ export default function ServantsPage() {
     {
       name: "최리나s",
       role: "서기",
-      description: "모임의 기록과 공지사항을 관리합니다",
+      description: "(시 91:14) 하나님이 가라사대 저가 나를 사랑한즉 내가 저를 건지리라 저가 내 이름을 안즉 내가 저를 높이리라",
       icon: FileText,
       color: "text-purple-400",
       image: "/servant-choi-rina.jpg",
@@ -64,7 +64,7 @@ export default function ServantsPage() {
       <section className="pt-24 pb-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">섬김이</h1>
-          <p className="text-xl text-muted-foreground mb-12">하나님의 사랑으로 공동체를 섬기는 사람들</p>
+          <p className="text-xl text-muted-foreground mb-12">가장 낮은 곳에서 형제자매님들을 섬기는 대학부 임원</p>
         </div>
       </section>
 
@@ -112,22 +112,22 @@ export default function ServantsPage() {
       {/* Call to Action */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-8">함께 섬겨요</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">예수님의 섬김처럼</h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-4">새로운 섬김이</h3>
-                <p className="text-muted-foreground">하나님께서 주신 은사로 공동체를 섬기고 싶으신 분들을 기다립니다</p>
+                <h3 className="text-xl font-semibold text-foreground mb-4">섬김의 자세</h3>
+                <p className="text-muted-foreground">(요 13:14) 내가 주와 또는 선생이 되어 너희 발을 씻겼으니 너희도 서로 발을 씻기는 것이 옳으니라</p>
               </CardContent>
             </Card>
 
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-4">기도 후원</h3>
-                <p className="text-muted-foreground">섬김이들과 대학부 사역을 위해 기도로 함께해 주세요</p>
+                <h3 className="text-xl font-semibold text-foreground mb-4">기도</h3>
+                <p className="text-muted-foreground">형제자매님들을 위해 항상 기도하는 섬김이들</p>
               </CardContent>
             </Card>
           </div>

@@ -10,20 +10,20 @@ export default function HomePage() {
       id: 1,
       title: "원민재, 양성빈 입대",
       description:
-        "우리 대학부의 소중한 형제들이 군 복무를 위해 입대했습니다. 건강하게 복무하고 돌아오기를 기도합니다.",
-      image: "/korean-university-students-military-service-farewe.jpg",
+        "우리 대학부의 소중한 형제들이 군 복무를 위해 입대했습니다.",
+      image: "/my-photo/양성빈,원민재-입대.jpeg",
     },
     {
       id: 2,
       title: "추계수양회",
       description: "가을의 은혜 가운데 진행된 추계수양회에서 하나님의 말씀으로 충만한 시간을 보냈습니다.",
-      image: "/korean-christian-retreat-autumn-mountains.jpg",
+      image: "/my-photo/추계수양회.jpeg",
     },
     {
       id: 3,
       title: "외국인 초대의 날",
       description: "다양한 국적의 친구들과 함께 하나님의 사랑을 나누는 특별한 시간을 가졌습니다.",
-      image: "/multicultural-christian-gathering-korean-internati.jpg",
+      image: "/my-photo/외국인초대의날.jpeg",
     },
   ]
 
@@ -48,14 +48,14 @@ export default function HomePage() {
               의정부 대학선교부
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              {"혹시 저희가 넘어지면 하나가 그 동무를 붙들어 일으키려니와"}
+              {"2025.01.01 ~ 2025.12.31"}
             </p>
           </div>
 
           {/* Group Photo */}
           <div className="mb-16">
             <Image
-              src="/korean-university-christian-group-photo-students-m.jpg"
+              src="/my-photo/group-photo.png"
               alt="의정부 대학선교부 단체사진"
               width={800}
               height={400}
@@ -115,21 +115,23 @@ export default function HomePage() {
               <CardContent className="p-0">
                 <div className="relative">
                   <Image
-                    src="/korean-church-worship-service-with-young-adults.jpg"
-                    alt="주일예배 영상"
+                    src="/my-photo/구지원.jpg"
+                    alt="[동터뷰] ep.4 구지원b"
                     width={300}
                     height={200}
                     className="w-full h-48 object-cover rounded-t-lg"
                   />
+                  <a href="https://www.youtube.com/watch?v=Riay8ApeY0I" target="_blank" rel="noopener noreferrer">
                   <div className="absolute inset-0 flex items-center justify-center bg-black/20 rounded-t-lg">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                       <Play className="h-6 w-6 text-primary-foreground ml-1" />
                     </div>
                   </div>
+                  </a>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">주일예배 - 새해 첫 예배</h3>
-                  <p className="text-sm text-muted-foreground">2025년 새해를 맞이하는 은혜로운 예배</p>
+                  <h3 className="font-semibold text-foreground mb-2">[동터뷰] ep.4 구지원b</h3>
+                  <p className="text-sm text-muted-foreground">신입생 구지원 형제님의 생생한 동역자 인터뷰!</p>
                 </div>
               </CardContent>
             </Card>
@@ -138,21 +140,23 @@ export default function HomePage() {
               <CardContent className="p-0">
                 <div className="relative">
                   <Image
-                    src="/korean-university-students-bible-study-group-discu.jpg"
-                    alt="말씀나눔 영상"
+                    src="/my-photo/8월모아보기.jpeg"
+                    alt="8월모아보기"
                     width={300}
                     height={200}
                     className="w-full h-48 object-cover rounded-t-lg"
                   />
+                  <a href="https://www.youtube.com/watch?v=Gmpc6B2gD4I" target="_blank" rel="noopener noreferrer">
                   <div className="absolute inset-0 flex items-center justify-center bg-black/20 rounded-t-lg">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                       <Play className="h-6 w-6 text-primary-foreground ml-1" />
                     </div>
                   </div>
+                  </a>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">말씀나눔 - 전도서 4장</h3>
-                  <p className="text-sm text-muted-foreground">함께 걸어가는 신앙의 여정</p>
+                  <h3 className="font-semibold text-foreground mb-2">8월 모아보기</h3>
+                  <p className="text-sm text-muted-foreground">함께 했던 8월은 어땠나요?</p>
                 </div>
               </CardContent>
             </Card>
@@ -161,34 +165,39 @@ export default function HomePage() {
               <CardContent className="p-0">
                 <div className="relative">
                   <Image
-                    src="/korean-christian-youth-fellowship-meal-together.jpg"
-                    alt="교제 영상"
+                    src="/my-photo/우세소빛.jpg"
+                    alt="우리는 세상의 소금과 빛"
                     width={300}
                     height={200}
                     className="w-full h-48 object-cover rounded-t-lg"
                   />
+                  <a href="https://www.youtube.com/watch?v=KwTGyKa4g9g" target="_blank" rel="noopener noreferrer">
                   <div className="absolute inset-0 flex items-center justify-center bg-black/20 rounded-t-lg">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                       <Play className="h-6 w-6 text-primary-foreground ml-1" />
                     </div>
                   </div>
+                  </a>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">대학부 교제시간</h3>
-                  <p className="text-sm text-muted-foreground">함께 나누는 따뜻한 교제</p>
+                  <h3 className="font-semibold text-foreground mb-2">우리는 세상의 소금과 빛</h3>
+                  <p className="text-sm text-muted-foreground">사무엘학교에서 말씀 전 특송을!</p>
                 </div>
               </CardContent>
             </Card>
           </div>
 
           <div className="text-center">
+            
             <div className="bg-card rounded-2xl p-8 border border-border">
+              <a href="https://www.youtube.com/@jbchUJB/featured" target="_blank" rel="noopener noreferrer">
               <div className="flex items-center justify-center mb-6">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
                   <Play className="h-8 w-8 text-primary-foreground ml-1" />
                 </div>
               </div>
-              <h3 className="text-2xl font-semibold text-foreground mb-4">의정부중앙교회 대학부</h3>
+              </a>
+              <h3 className="text-2xl font-semibold text-foreground mb-4">의정부교회 대학선교부 유튜브 채널</h3>
               <p className="text-muted-foreground mb-6">
                 우리의 예배와 말씀, 그리고 일상의 은혜로운 순간들을 함께 나누어요
               </p>
