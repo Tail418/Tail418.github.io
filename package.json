@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://Tail418.github.io",
   "scripts": {
-    "build": "next build && next export -o dist",
+    "build": "next build && next export",
     "dev": "next dev",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d out",
     "start": "next start"
   },
   "dependencies": {
