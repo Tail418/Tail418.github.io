@@ -32,40 +32,40 @@ export default function WordPage() {
   const [posts, setPosts] = useState<Post[]>([
     {
       id: 1,
-      title: "하나님의 사랑에 대한 묵상",
-      author: "안정호 전도사",
+      title: "사랑",
+      author: "김태일",
       content:
-        "요한복음 3:16을 묵상하며... 하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라. 이 말씀을 통해 하나님의 무조건적인 사랑을 다시 한번 깨닫게 됩니다.",
+        "요한복음 3:16을 묵상하며... 하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라.",
       date: "2025-01-15",
       category: "묵상",
-      likes: 12,
+      likes: 2,
       comments: [
-        { id: 1, author: "양진영", content: "은혜로운 말씀 감사합니다!", date: "2025-01-15" },
-        { id: 2, author: "유하나", content: "저도 이 말씀으로 큰 위로를 받았어요", date: "2025-01-16" },
+        { id: 1, author: "양진영", content: "!", date: "2025-01-15" },
+        { id: 2, author: "전지오", content: "오", date: "2025-01-16" },
       ],
     },
     {
       id: 2,
-      title: "새해 결심과 하나님의 계획",
-      author: "박중혁",
+      title: "계획",
+      author: "김태일",
       content:
-        '잠언 16:9 "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라" 새해를 맞아 우리의 계획보다 하나님의 뜻을 구하는 한 해가 되기를 소망합니다.',
+        '잠언 16:9 "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라"',
       date: "2025-01-10",
       category: "나눔",
-      likes: 8,
+      likes: 1,
       comments: [
-        { id: 3, author: "김경일", content: "아멘! 하나님의 뜻을 구하는 한 해가 되길 기도해요", date: "2025-01-11" },
+        { id: 3, author: "김경일", content: "!", date: "2025-01-11" },
       ],
     },
     {
       id: 3,
-      title: "시편 23편 묵상",
-      author: "유하나",
+      title: "시편 23편",
+      author: "김태일",
       content:
-        "여호와는 나의 목자시니 내게 부족함이 없으리로다... 이 말씀이 요즘 힘든 시기를 보내는 저에게 큰 위로가 됩니다. 하나님께서 우리의 목자가 되어주신다는 것이 얼마나 감사한지요.",
+        "여호와는 나의 목자시니 내게 부족함이 없으리로다 그가 나를 푸른 초장에 누이시며 쉴만한 물가로 인도하시는도다",
       date: "2025-01-08",
       category: "묵상",
-      likes: 15,
+      likes: 0,
       comments: [],
     },
   ])
@@ -124,8 +124,8 @@ export default function WordPage() {
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">말씀</h1>
-          <p className="text-xl text-muted-foreground mb-8">하나님의 말씀을 나누고 은혜를 함께해요</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">나눔</h1>
+          <p className="text-xl text-muted-foreground mb-8">이 페이지는 아직 완성되지 않았습니다 준비중입니다</p>
 
           <Button onClick={() => setShowNewPostForm(!showNewPostForm)} className="bg-primary hover:bg-primary/90">
             <Plus className="h-4 w-4 mr-2" />새 글 작성
@@ -173,7 +173,7 @@ export default function WordPage() {
                   <Textarea
                     value={newPost.content}
                     onChange={(e) => setNewPost({ ...newPost, content: e.target.value })}
-                    placeholder="말씀이나 은혜받은 내용을 나누어 주세요"
+                    placeholder="얻은 말씀, 깨달은 말씀, 기도 등을 나누어 주세요"
                     className="bg-input border-border min-h-32"
                   />
                 </div>

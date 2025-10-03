@@ -108,7 +108,7 @@ export default function AboutPage() {
       {/* History Section */}
       <section className="py-16 px-4 bg-secondary/30">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">붙잡고 싶은 말씀</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">최근 들은 말씀</h2>
 
           <div className="space-y-8">
             <Card className="bg-card border-border">

@@ -121,47 +121,6 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Statistics */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">힘써야 하는 것들</h2>
-
-          <div className="grid md:grid-cols-4 gap-8">
-            <Card className="bg-card border-border text-center">
-              <CardContent className="p-6">
-                <Heart className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">기도</div>
-                <p className="text-muted-foreground">사랑의 기도</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-card border-border text-center">
-              <CardContent className="p-6">
-                <Calendar className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">전도</div>
-                <p className="text-muted-foreground">계획을 세워 전도</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-card border-border text-center">
-              <CardContent className="p-6">
-                <Users className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">교제</div>
-                <p className="text-muted-foreground">모이기를 힘쓰라</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-card border-border text-center">
-              <CardContent className="p-6">
-                <BookOpen className="h-8 w-8 text-primary mx-auto mb-4" />
-                <div className="text-3xl font-bold text-foreground mb-2">말씀</div>
-                <p className="text-muted-foreground">말씀을 최우선</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Image Modal */}
       {selectedImage && (
         <div

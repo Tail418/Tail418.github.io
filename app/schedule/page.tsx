@@ -14,39 +14,39 @@ export default function SchedulePage() {
   const upcomingEvents = [
     {
       id: 1,
-      title: "주일예배",
-      date: "2025-02-02",
+      title: "대학부 모임",
+      date: "2025-00-00",
       time: "14:00",
-      location: "의정부중앙교회 대학부실",
-      type: "정기모임",
-      description: "매주 일요일 정기 예배",
+      location: "청년회실",
+      type: "모임",
+      description: "매달 1번 진행되는 대학부모임",
     },
     {
       id: 2,
-      title: "겨울 수양회",
-      date: "2025-02-14",
-      time: "09:00",
-      location: "양평 수양관",
-      type: "특별행사",
-      description: "1박 2일 겨울 수양회",
+      title: "겨울 동계수련회",
+      date: "2025-00-00",
+      time: "00:00",
+      location: "갈릴리수양관",
+      type: "수양회",
+      description: "2박 3일간 진행되는 동계수련회",
     },
     {
       id: 3,
-      title: "신입생 환영회",
-      date: "2025-03-01",
-      time: "18:00",
-      location: "교회 친교실",
-      type: "특별행사",
-      description: "새 학기 신입생 환영 모임",
+      title: "고3 형제자매님들과 교제",
+      date: "2025-00-00",
+      time: "00:00",
+      location: "교제 1실",
+      type: "주일일정",
+      description: "고3 형제자매님들과 교제하는 시간입니다.",
     },
     {
       id: 4,
-      title: "수요예배",
-      date: "2025-02-05",
-      time: "19:00",
-      location: "의정부중앙교회 대학부실",
-      type: "정기모임",
-      description: "매주 수요일 정기 예배",
+      title: "찬양연습",
+      date: "2025-00-00",
+      time: "00:00",
+      location: "중강당",
+      type: "찬양연습",
+      description: "얼마 남지않은 가을찬양제 준비를 위한 찬양연습입니다.",
     },
   ]
 
@@ -70,7 +70,7 @@ export default function SchedulePage() {
 
   const getEventTypeColor = (type: string) => {
     switch (type) {
-      case "정기모임":
+      case "대학부모임":
         return "bg-blue-500/20 text-blue-400 border-blue-500/30"
       case "특별행사":
         return "bg-purple-500/20 text-purple-400 border-purple-500/30"
@@ -196,28 +196,28 @@ export default function SchedulePage() {
       {/* Regular Schedule */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">정기 모임 안내</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-12">모임 안내</h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-card border-border">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-primary" />
-                  주일예배
+                  주일일정
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4 text-muted-foreground" />
-                    <span>매주 일요일 오후 2시</span>
+                    <span>매주 일요일 오전 11시</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-muted-foreground" />
-                    <span>의정부중앙교회 대학부실</span>
+                    <span>의정부교회 대강당</span>
                   </div>
                   <p className="text-muted-foreground mt-4">
-                    매주 일요일 함께 모여 예배하며 하나님의 말씀을 나누는 시간입니다.
+                    매주 일요일 함께 모여 말씀 들으며 하나님의 말씀을 배우는 시간입니다.
                   </p>
                 </div>
               </CardContent>
@@ -227,21 +227,21 @@ export default function SchedulePage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-primary" />
-                  수요예배
+                  수요말씀
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4 text-muted-foreground" />
-                    <span>매주 수요일 오후 7시</span>
+                    <span>매주 수요일 오후 7시 20분</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-muted-foreground" />
-                    <span>의정부중앙교회 대학부실</span>
+                    <span>의정부교회 대강당</span>
                   </div>
                   <p className="text-muted-foreground mt-4">
-                    주중에 함께 모여 기도하고 말씀을 나누는 소중한 시간입니다.
+                    수요일 저녁 함께 모여 말씀 듣고 힘을 받는 시간입니다.
                   </p>
                 </div>
               </CardContent>
@@ -251,20 +251,20 @@ export default function SchedulePage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-primary" />
-                  소그룹 모임
+                  대학부모임
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4 text-muted-foreground" />
-                    <span>매주 토요일 오후 6시</span>
+                    <span>매달 1~2번 토요일 오후 2시</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-muted-foreground" />
-                    <span>각 소그룹별 장소</span>
+                    <span>장소 추후 공지</span>
                   </div>
-                  <p className="text-muted-foreground mt-4">소그룹별로 더 깊은 교제와 말씀 나눔을 하는 시간입니다.</p>
+                  <p className="text-muted-foreground mt-4">말씀과 교제로 주님을 향한 마음이 커져가는 시간</p>
                 </div>
               </CardContent>
             </Card>
@@ -273,20 +273,20 @@ export default function SchedulePage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-primary" />
-                  특별 모임
+                  청년회교제
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4 text-muted-foreground" />
-                    <span>매월 셋째 토요일</span>
+                    <span>매주 토요일 7시</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 text-muted-foreground" />
-                    <span>교회 친교실</span>
+                    <span>때마다 다른 장소</span>
                   </div>
-                  <p className="text-muted-foreground mt-4">특별한 주제로 함께 모이는 월례 모임입니다.</p>
+                  <p className="text-muted-foreground mt-4">토요일 저녁을 이기는 청년 그리스도인들</p>
                 </div>
               </CardContent>
             </Card>
@@ -301,11 +301,11 @@ export default function SchedulePage() {
           <Card className="bg-card border-border">
             <CardContent className="p-8">
               <p className="text-muted-foreground mb-4">
-                일정에 대한 문의사항이나 참석 관련 질문이 있으시면 언제든 연락해 주세요.
+                문의사항이나 질문이 있으시면 언제든 연락해 주세요.
               </p>
               <div className="space-y-2">
-                <p className="text-foreground font-medium">안정호 전도사</p>
-                <p className="text-muted-foreground">담당: 대학부 사역 전반</p>
+                <p className="text-foreground font-medium">양진영</p>
+                <p className="text-muted-foreground">담당: 의정부교회 대학부장</p>
               </div>
             </CardContent>
           </Card>

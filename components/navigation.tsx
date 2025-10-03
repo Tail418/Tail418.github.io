@@ -14,7 +14,7 @@ export function Navigation() {
     { href: "/about", label: "소개" },
     { href: "/servants", label: "섬김이" },
     { href: "/gallery", label: "갤러리" },
-    { href: "/word", label: "말씀" },
+    { href: "/word", label: "나눔" },
     { href: "/schedule", label: "일정" },
   ]
 

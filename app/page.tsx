@@ -108,7 +108,28 @@ export default function HomePage() {
       {/* YouTube Section */}
       <section className="py-16 px-4 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-12">최근 영상</h2>
+
+            <div className="text-center">
+            
+            <div className="bg-card rounded-2xl p-8 border border-border">
+              <a href="https://www.youtube.com/@jbchUJB/featured" target="_blank" rel="noopener noreferrer">
+              <div className="flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
+                  <Play className="h-8 w-8 text-primary-foreground ml-1" />
+                </div>
+              </div>
+              </a>
+              <h3 className="text-2xl font-semibold text-foreground mb-4">의정부교회 대학선교부 Youtube</h3>
+              <p className="text-muted-foreground mb-6">
+                영상을 통해 더 많은 소식들을 확인하세요
+              </p>
+              <Button asChild className="bg-primary hover:bg-primary/90">
+                <a href="https://www.youtube.com/@jbchUJB/featured" target="_blank" rel="noopener noreferrer">
+                  채널 방문하기
+                </a>
+              </Button>
+            </div>
+          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <Card className="bg-card border-border hover:border-primary/50 transition-colors duration-300">
@@ -187,27 +208,7 @@ export default function HomePage() {
             </Card>
           </div>
 
-          <div className="text-center">
-            
-            <div className="bg-card rounded-2xl p-8 border border-border">
-              <a href="https://www.youtube.com/@jbchUJB/featured" target="_blank" rel="noopener noreferrer">
-              <div className="flex items-center justify-center mb-6">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-                  <Play className="h-8 w-8 text-primary-foreground ml-1" />
-                </div>
-              </div>
-              </a>
-              <h3 className="text-2xl font-semibold text-foreground mb-4">의정부교회 대학선교부 유튜브 채널</h3>
-              <p className="text-muted-foreground mb-6">
-                우리의 예배와 말씀, 그리고 일상의 은혜로운 순간들을 함께 나누어요
-              </p>
-              <Button asChild className="bg-primary hover:bg-primary/90">
-                <a href="https://www.youtube.com/@jbchUJB/featured" target="_blank" rel="noopener noreferrer">
-                  채널 방문하기
-                </a>
-              </Button>
-            </div>
-          </div>
+          
         </div>
       </section>
 
