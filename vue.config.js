@@ -1,4 +1,4 @@
 module.exports = {
     outputDir: './docs',
-    publicPath: './Tail418.github.io/'
+    publicPath: './https://tail418.github.io/'
 }
