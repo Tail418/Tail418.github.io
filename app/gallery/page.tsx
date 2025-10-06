@@ -13,11 +13,11 @@ export default function GalleryPage() {
   // Generate 18 gallery images with Korean university ministry themes
   const galleryImages = [
   
-  { id: 1, src: "/1.jpeg", alt: "행복한 시간들", category: "교제" },
-  { id: 2, src: "/2.jpeg", alt: "행복한 시간들", category: "교제" },
-  { id: 3, src: "/3.jpeg", alt: "행복한 시간들", category: "교제" },
-  { id: 4, src: "/4.jpeg", alt: "행복한 시간들", category: "교제" },
-  { id: 5, src: "/5.jpeg", alt: "행복한 시간들", category: "교제" },
+  { id: 1, src: "/1.jpeg", alt: "추계수양회", category: "교제" },
+  { id: 2, src: "/2.jpeg", alt: "연합발대식", category: "교제" },
+  { id: 3, src: "/3.jpeg", alt: "대학부모임", category: "교제" },
+  { id: 4, src: "/4.jpeg", alt: "북부연합모임", category: "교제" },
+  { id: 5, src: "/5.jpeg", alt: "의정부권역 대학생 수련회", category: "교제" },
   { id: 6, src: "/6.jpeg", alt: "행복한 시간들", category: "교제" },
   { id: 7, src: "/7.jpeg", alt: "행복한 시간들", category: "교제" },
   { id: 8, src: "/8.jpeg", alt: "행복한 시간들", category: "교제" },
